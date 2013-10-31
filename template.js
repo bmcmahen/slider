@@ -1,0 +1,1 @@
+module.exports = '<div class=\'ui-slider\'>\n  <div class=\'ui-slider-background\'></div>\n</div>\n';

@@ -10,13 +10,15 @@
     "component/classes": "*",
     "component/events": "*",
     "component/emitter": "*",
-    "component/translate": "*"
+    "component/translate": "*",
+    "component/domify": "*"
   },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
-    "index.js"
+    "index.js",
+    "template.js"
   ],
   "styles": [
     "slider.css"

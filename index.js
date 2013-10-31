@@ -3,11 +3,11 @@ var linearConversion = require('linear-conversion');
 var events = require('events');
 var Emitter = require('emitter');
 var translate = require('translate');
+var domify = require('domify');
 
 function Slider(){
   if (!(this instanceof Slider)) return new Slider();
-  this.el = document.createElement('div');
-  this.el.className = 'ui-slider';
+  this.el = domify(require('./template'));
 
   this.handles = [];
   this.handleEvents = [];
@@ -35,7 +35,7 @@ Slider.prototype.bind = function(){
 
 Slider.prototype.addHandle = function(){
 
-  // create our element
+  // create our handle element
   var el = document.createElement('div');
   el.className = 'ui-slider-handle';
   this.el.appendChild(el);
