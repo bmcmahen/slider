@@ -1,0 +1,23 @@
+{
+  "name": "slider",
+  "repo": "bmcmahen/slider",
+  "description": "a jquery-ui style slider",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "bmcmahen/draggable": "*",
+    "bmcmahen/linear-conversion": "*",
+    "component/classes": "*",
+    "component/events": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "slider.css"
+  ]
+}
