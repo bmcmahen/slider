@@ -1,0 +1,20 @@
+.ui-slider {
+  position: relative;
+  height: 40px;
+  border: 1px solid #ddd;
+  margin: 150px;
+}
+
+.ui-slider-handle {
+  position: absolute;
+  height: 40px;
+  width: 15px;
+  background: #999;
+  z-index: 10;
+}
+
+.range-element {
+  height: 40px;
+  background: #ddd;
+  z-index: 5;
+}

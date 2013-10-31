@@ -8,16 +8,18 @@
     "bmcmahen/draggable": "*",
     "bmcmahen/linear-conversion": "*",
     "component/classes": "*",
-    "component/events": "*"
+    "component/events": "*",
+    "component/emitter": "*",
+    "component/translate": "*"
   },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
-    "index.js",
-    "template.js"
+    "index.js"
   ],
   "styles": [
     "slider.css"
-  ]
+  ],
+  "remotes": []
 }

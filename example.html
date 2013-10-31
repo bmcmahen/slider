@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title></title>
+<script src='build/build.js'></script>
+<link href='build/build.css' rel='stylesheet'>
+
+<style>
+
+
+</style>
+</head>
+<body>
+
+<button onclick='range.setValue(80);'> jump</button>
+
+<script>
+var Slider = require('slider');
+var range = new Slider()
+  .numberRange(0, 100)
+  .addHandle()
+  .addHandle()
+  .appendTo(document.body)
+  .setValue(20, 50);
+
+
+range.on('val', function(v){
+  console.log('ONE', v)
+});
+
+range.on('val2', function(v){
+  console.log('TWO', v);
+});
+
+
+window.onresize = function(){
+  range.refresh();
+};
+
+</script>
+
+</body>
+</html>
